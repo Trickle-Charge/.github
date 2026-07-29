@@ -1,0 +1,8 @@
+{
+  "name": "UPM Package Publish - Target",
+  "description": "Manual workflow template to build and deploy a single package from a monorepo.",
+  "iconName": "package",
+  "categories": [
+    "Deployment"
+  ]
+}
