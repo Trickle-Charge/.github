@@ -1,0 +1,17 @@
+name: Publish UPM Packages
+
+on:
+  push:
+    branches: [ $default-branch ]
+    paths:
+      - 'Packages/**'
+  workflow_dispatch:
+
+jobs:
+  publish:
+    uses: Trickle-Charge/TrickleCharge-Infra/.github/workflows/publish-upm-packages.yml@main
+    # OPTIONAL: Uncomment to override defaults
+    # with:
+    #   package-path: '.'                       # Use '.' for single-root package repos (like DingOS)
+    #   ignore-packages: 'com.package.template' # Comma-separated list of folders or package IDs to skip
+    secrets: inherit
