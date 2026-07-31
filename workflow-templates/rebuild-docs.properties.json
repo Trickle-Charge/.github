@@ -1,0 +1,8 @@
+{
+  "name": "Request rebuild documentation",
+  "description": "Request TrickleCharge-Docs to rebuild.",
+  "iconName": "octicon book",
+  "categories": [
+    "Documentation"
+  ]
+}
