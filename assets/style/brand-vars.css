@@ -1,0 +1,8 @@
+/* Trickle-Charge/.github/assets/style/brand-vars.css */
+:root {
+    --tc-accent-color: #33FF00;
+    --tc-accent-hover: #66FF33;
+    --tc-bg-color:     #191919;
+    --tc-bg-light:    #2a2a2a;
+    --tc-bg-dark:     #0f0f0f;
+}
