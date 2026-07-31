@@ -1,7 +1,7 @@
 {
   "name": "UPM Package Publish",
   "description": "Standard publishing workflow for TrickleCharge Unity package repositories.",
-  "iconName": "package",
+  "iconName": "octicon package",
   "categories": [
     "Deployment"
   ]
