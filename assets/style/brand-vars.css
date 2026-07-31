@@ -10,7 +10,7 @@
     /* Glow Animation Tokens */
     --tc-glow-off: drop-shadow(0 0 0px var(--tc-accent-color));
     --tc-glow-on:  drop-shadow(0 0 6px color-mix(in srgb, var(--tc-accent-hover) 65%, transparent));
-    --tc-glow-transition: color 0.5s ease-out, filter 0.5s ease-out !important;
+    --tc-glow-transition: color 0.5s ease-out, filter 0.5s ease-out;
 }
 
 /* Reusable Utility Class */
